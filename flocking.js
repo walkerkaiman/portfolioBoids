@@ -39,7 +39,7 @@ function Flock() {
   // An array for all the boids
   if (window.windowWidth < 450) {
     this.maxPopulation = 10;
-  } else{ this.maxPopulation = 50; }
+  } else{ this.maxPopulation = 30; }
   
   this.boids = []; // Initialize the array
 }
